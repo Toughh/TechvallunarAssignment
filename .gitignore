@@ -1,0 +1,22 @@
+# Node modules
+/node_modules/
+
+# TypeScript build output
+/dist/
+/out/
+
+# WebDriverIO and other testing-related artifacts
+/reports/            # Test reports (including Allure results)
+/allure-results/     # Allure results directory
+/allure-report/      # Allure generated report (HTML files)
+
+/wdio-*.json          # WebDriverIO configuration or result JSON files
+/coverage/            # Code coverage output if using coverage tools (e.g., Istanbul)
+/tsconfig.tsbuildinfo  # TypeScript incremental build info
+
+# IDE files (optional, depending on your editor)
+.vscode/              # VSCode settings
+*.suo
+*.user
+*.userosscache
+*.sln
